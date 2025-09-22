@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background: #fff;
+    height: 100px;
+    width: 100%;
+    
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 105px;
+    margin: -6px 10px;
+}
+nav ul li a{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3%;
+    font-size: 13 px;
+    padding: 8px 13px;
+}
+  .welcome {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    height: 85vh;          /* Ajusta el alto del carrusel si lo deseas */
+}
+
+.welcome .welcome-img {
+    max-width: 65%;
+    width: auto;
+    display: flex;
+   
+    margin: 50; /* Asegura que el bloque de la imagen también esté centrado */
+}
+ .index-content{
+    /*background: url(../assets/img/PATRON\ CC.jpg) no-repeat;*/
+    background-size: cover;
+    width: auto;
+    
+  
+    height:calc(100vh - 90px);
+    color: #fff;
+    flex: auto;
+}
+footer {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
