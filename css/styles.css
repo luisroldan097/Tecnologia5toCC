@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Alan Sans", sans-serif;
 }
 nav{
     background: #fff;
@@ -14,6 +14,7 @@ nav{
     width: 100%;
     
 }
+
 .logo{
     width: 100px;
     height: 90px;
@@ -33,7 +34,7 @@ nav ul li{
 }
 nav ul li a{
     color: #000;
-    font-family: "Poppins", sans-serif;
+    font-family: "Alan Sans", sans-serif;
     border-radius: 3%;
     font-size: 13 px;
     padding: 8px 13px;
@@ -53,7 +54,7 @@ nav ul li a{
     margin: 50; /* Asegura que el bloque de la imagen también esté centrado */
 }
  .index-content{
-    /*background: url(../assets/img/PATRON\ CC.jpg) no-repeat;*/
+    background: url(../assets/img/PATRON\ CC.jpg) no-repeat;
     background-size: cover;
     width: auto;
     
@@ -71,4 +72,64 @@ footer {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
+}
+.social-media a{
+     align-items: center;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #b41919;
+    border: 2px solid #b41919;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px 5px;
+    font-size: 20px;
+    transition: .3s;
+
+}
+
+.social-media a:hover{
+    background-color: #2980b9;
+   
+}
+nav ul li .inscripcion {
+    display: inline-flex;
+    padding: 10px 20px;
+    font-family: "Alan Sans", sans-serif;
+    border: 4px solid #E85A62;
+    font-size: 16px;
+    color: white;
+    background-color: #E85A62;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efecto de transición */
+    gap: 5px;
+  }
+  
+  nav ul li .inscripcion:hover {
+    background-color: #2980b9; /* Cambia el color de fondo al hacer hover */
+    
+  }
+.map-container {
+  display: flex;
+  justify-content: center;   /* Centra todo el bloque */
+  align-items: center;       /* Centra verticalmente */
+  gap: 20px;                 /* Espacio mínimo entre texto y mapa */
+  flex-wrap: wrap;           /* Para que en pantallas chicas se acomode */
+  max-width: 1000px;
+  margin: auto;
+}
+
+.location {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;          /* Mantiene alineado el texto */
+}
+
+iframe {
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
